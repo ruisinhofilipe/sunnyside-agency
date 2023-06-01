@@ -120,11 +120,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 
 .ct1 {
   text-align: center;
-  width: 15rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,7 +133,8 @@ section {
   gap: 2rem;
 }
 .ct1 img {
-  width: fit-content;
+  height: 7rem;
+  width: 7rem;
   border-radius: 50%;
 }
 
@@ -149,22 +150,68 @@ footer {
   width: 25%;
 }
 
-.footer-bottom div {
+.footer-bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.footer-bottom div .sn {
-  display: flex;
+  padding: 3rem;
   gap: 3rem;
 }
-.footer-bottom div .link {
+.footer-bottom .title-footer h2 {
+  font-size: 1.5rem;
+}
+.footer-bottom .socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.footer-bottom .socials .nav-bottom {
   display: flex;
   gap: 6rem;
 }
-.footer-bottom div .link li {
+.footer-bottom .socials .nav-bottom li {
   list-style-type: none;
+}
+.footer-bottom .socials .nav-bottom li:hover {
+  cursor: pointer;
+}
+.footer-bottom .socials .links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+}
+.footer-bottom .socials .links:hover {
+  cursor: pointer;
+}
+.footer-bottom .socials .links img {
+  height: 2rem;
+  width: 2rem;
+}
+
+@media (max-width: 1280px) {
+  * {
+    font-size: 1rem;
+  }
+  .menu-nav {
+    padding-right: 1rem;
+  }
+  .menu-nav ul {
+    gap: 1.2rem;
+  }
+  .bottom-section {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .bottom-section .text-abs {
+    width: 90%;
+    padding: 1rem;
+  }
+  .client-testimonial .ct {
+    gap: 2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

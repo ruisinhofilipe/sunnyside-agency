@@ -1,0 +1,16 @@
+// Design for desktop displays from 1280×720 through 1920×1080
+// Design for mobile displays from 360×640 through 414×896
+// Design for tablet displays from 601×962 through 1280×800
+
+$desktop-width-min: 1280px;
+$desktop-width-max: 1920px;
+$desktop-height-min: 720px;
+$desktop-height-max: 1080px;
+
+// $tablet-height-min: 1280px;
+// $tablet-height-max: 1920px;
+
+$mobile-width-min: 601px;
+$mobile-width-max: 1280px;
+$mobile-height-min: 962px;
+$mobile-height-max: 800px;
